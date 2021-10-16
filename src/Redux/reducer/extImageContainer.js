@@ -248,7 +248,7 @@ exteriorImageMenu : [
     price: "909028"
     },
 
-    {Code:"USA"909028"",
+    {Code:"USA90906",
     name: "GBI cascade3",
     image:"Img/Exterior(31).jpg",
     availability: "19-06-21",
