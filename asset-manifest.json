@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/LuxaryVillasPortal/static/css/main.623c90e1.chunk.css",
+    "main.js": "/LuxaryVillasPortal/static/js/main.3eb9575e.chunk.js",
+    "main.js.map": "/LuxaryVillasPortal/static/js/main.3eb9575e.chunk.js.map",
+    "runtime-main.js": "/LuxaryVillasPortal/static/js/runtime-main.71c102ad.js",
+    "runtime-main.js.map": "/LuxaryVillasPortal/static/js/runtime-main.71c102ad.js.map",
+    "static/js/2.b254d3f3.chunk.js": "/LuxaryVillasPortal/static/js/2.b254d3f3.chunk.js",
+    "static/js/2.b254d3f3.chunk.js.map": "/LuxaryVillasPortal/static/js/2.b254d3f3.chunk.js.map",
+    "static/js/3.4600d93a.chunk.js": "/LuxaryVillasPortal/static/js/3.4600d93a.chunk.js",
+    "static/js/3.4600d93a.chunk.js.map": "/LuxaryVillasPortal/static/js/3.4600d93a.chunk.js.map",
+    "static/js/4.b3b8120a.chunk.js": "/LuxaryVillasPortal/static/js/4.b3b8120a.chunk.js",
+    "static/js/4.b3b8120a.chunk.js.map": "/LuxaryVillasPortal/static/js/4.b3b8120a.chunk.js.map",
+    "static/js/5.a33d63d2.chunk.js": "/LuxaryVillasPortal/static/js/5.a33d63d2.chunk.js",
+    "static/js/5.a33d63d2.chunk.js.map": "/LuxaryVillasPortal/static/js/5.a33d63d2.chunk.js.map",
+    "static/js/6.cb674d3e.chunk.js": "/LuxaryVillasPortal/static/js/6.cb674d3e.chunk.js",
+    "static/js/6.cb674d3e.chunk.js.map": "/LuxaryVillasPortal/static/js/6.cb674d3e.chunk.js.map",
+    "index.html": "/LuxaryVillasPortal/index.html",
+    "static/css/main.623c90e1.chunk.css.map": "/LuxaryVillasPortal/static/css/main.623c90e1.chunk.css.map",
+    "static/js/2.b254d3f3.chunk.js.LICENSE.txt": "/LuxaryVillasPortal/static/js/2.b254d3f3.chunk.js.LICENSE.txt",
+    "static/js/3.4600d93a.chunk.js.LICENSE.txt": "/LuxaryVillasPortal/static/js/3.4600d93a.chunk.js.LICENSE.txt",
+    "static/js/4.b3b8120a.chunk.js.LICENSE.txt": "/LuxaryVillasPortal/static/js/4.b3b8120a.chunk.js.LICENSE.txt",
+    "static/js/5.a33d63d2.chunk.js.LICENSE.txt": "/LuxaryVillasPortal/static/js/5.a33d63d2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/LuxaryVillasPortal/static/media/kitchen.43ba015b.jpg",
+    "static/media/luxaryhome.67ae8e93.png": "/LuxaryVillasPortal/static/media/luxaryhome.67ae8e93.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71c102ad.js",
+    "static/js/3.4600d93a.chunk.js",
+    "static/css/main.623c90e1.chunk.css",
+    "static/js/main.3eb9575e.chunk.js"
+  ]
+}
