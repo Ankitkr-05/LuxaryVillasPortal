@@ -101,7 +101,7 @@ class MessageBox extends Component {
            this.props.changeImgAvailability(this.props.clickedTableCode)
            this.props.exteriorCompleteImage();
            setTimeout(() => {
-            alert(`Hi ${requiredPerson}! You are successfully booked your desire villa.\n Please note Booked Code is: ${this.props.clickedTableCode}.\n Please download your booked details from table for future aspect.\nKeep patience You will receive call shortly.\nHave a nice day :)`) 
+            alert(`Hi ${requiredPerson}! You are successfully booked your desire villa.\nPlease note Booked Code is: ${this.props.clickedTableCode}.\nPlease download your booked details from table for future aspect.\nKeep patience You will receive call shortly.\nHave a nice day :)`) 
            }, 30);
         }
     }
