@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LuxaryVillasPortal/static/css/main.623c90e1.chunk.css",
-    "main.js": "/LuxaryVillasPortal/static/js/main.c2b8b905.chunk.js",
-    "main.js.map": "/LuxaryVillasPortal/static/js/main.c2b8b905.chunk.js.map",
+    "main.js": "/LuxaryVillasPortal/static/js/main.636790b6.chunk.js",
+    "main.js.map": "/LuxaryVillasPortal/static/js/main.636790b6.chunk.js.map",
     "runtime-main.js": "/LuxaryVillasPortal/static/js/runtime-main.6d4ef18d.js",
     "runtime-main.js.map": "/LuxaryVillasPortal/static/js/runtime-main.6d4ef18d.js.map",
     "static/js/2.85339e51.chunk.js": "/LuxaryVillasPortal/static/js/2.85339e51.chunk.js",
@@ -31,6 +31,6 @@
     "static/css/3.c654f199.chunk.css",
     "static/js/3.3f4aac56.chunk.js",
     "static/css/main.623c90e1.chunk.css",
-    "static/js/main.c2b8b905.chunk.js"
+    "static/js/main.636790b6.chunk.js"
   ]
 }
