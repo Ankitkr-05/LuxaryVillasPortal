@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import "./../App.css";
 import MessageBox from "./MessageBox"
-import { RiCheckboxBlankCircleFill } from "react-icons/ri"
 import { MdCheckCircle } from "react-icons/md"
 import { connect } from "react-redux"
 import { FaFileDownload } from "react-icons/fa"
 import jsPDF from 'jspdf'
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
+import 'tippy.js/animations/shift-toward-extreme.css';
+import 'tippy.js/themes/material.css';
+
 import {
     exteriorTableData,
     bookingDisplay,
@@ -67,6 +72,8 @@ handleDownload = (code, villaName, availability, customerName, area, cost) => {
         doc.text(60, 160, "Cost :")
         doc.text(60, 180, "Booked On :")
         doc.text(60, 200, "Booking Time :")
+        doc.text(60, 282, "*")
+        doc.text(60, 302, "*")
         doc.setFont("Helvertica", 'Normal')
         doc.text(130, 60, allDetail[0])
         doc.text(130, 80, allDetail[1])
@@ -76,6 +83,8 @@ handleDownload = (code, villaName, availability, customerName, area, cost) => {
         doc.text(96, 160, allDetail[5])
         doc.text(130, 180, allDetail[6])
         doc.text(146, 200, allDetail[7])
+        doc.text(80, 280, "Thank you for booking your desire home from The Dream Villa.")
+        doc.text(82, 300, "For more Info visit our website www.dreamVilla.com.")
         doc.save('Villa_Info.pdf')
     })
 
@@ -113,8 +122,10 @@ render() {
 	                <tbody>    
                         {exteriorTableField.map((value, index) => {
                         return (<tr key={value.id}>
-                                {( value.Booked == "" ) ? <td style={{width:"3%", paddingLeft:"8px"}}><MdCheckCircle /></td> :                       
-                                    <td style={{width:"3%", paddingLeft:"8px", cursor: "pointer"}} onClick={event => {this.handleDownload(value.Code, value.name, value.Availability, value.Booked, value.Area, value.cost)}}><FaFileDownload /></td>
+                                {( value.Booked == "" ) ? <td style={{width:"3%", paddingLeft:"8px"}}><MdCheckCircle /></td> :  
+                                <Tippy placement= 'bottom-start' theme='material' animation= 'shift-toward-extreme' content={<span style={{color:"white"}}>Download</span>}>
+                                    <td style={{width:"3%", paddingLeft:"8px", cursor: "pointer", color: "blue"}} onClick={event => {this.handleDownload(value.Code, value.name, value.Availability, value.Booked, value.Area, value.cost)}}><FaFileDownload /></td>                                                        
+                                </Tippy>
                                 }
                                 <td style={{width:"8%", paddingLeft:"8px"}}>{value.Code}</td>
                                 <td style={{width:"10%", paddingLeft:"10px"}}>{value.name}</td>
